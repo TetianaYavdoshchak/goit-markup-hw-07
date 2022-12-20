@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 1px solid $primary-border-color;
+  .list {
+    @include font(500, 14px, 1.14, 0.02em);
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}
